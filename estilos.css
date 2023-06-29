@@ -1,0 +1,23 @@
+* {
+    text-align: left;
+    background-color: rgb(121, 182, 182);
+}
+header{
+    width: 350px;
+    color: black;
+}
+.navegacion li{
+    list-style: none;
+    display: inline-block;
+}
+.agrupar{
+    background-color: rgb(229, 231, 122);
+    margin-top: 40px;
+    margin:25px;
+    padding: 15px;
+    margin-right: 945px;
+}
+#titulo{
+    font-size: 50px;
+    font-family: cursive;
+}
