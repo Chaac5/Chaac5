@@ -1,12 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
 .agrupar{
-    width: 500px;
+    margin:5px auto;
+    width: 650px;
     background-color: #c3f8ff;
+    padding: 20px;
 }
 #titulo{
+    border: 2px solid black;
     padding: 15px;
-    background-color: #95b8f6;
+    background-color: #f9d1ea;
 }
-#masInfo {
-    margin-top: -30px;
-    background-color: #ffca99;
+.navegacion{
+    text-align: left;
+    background-color: #eaf9d1;
+    padding: 5px 15px;
+}
+.navegacion li {
+    list-style: none;
+    padding: 3px;
+    font: bold 14px cursive;
+    display: inline-block;
+}
+.seccion {
+    margin: 20px;
+    width: 400px;
+    float: left;
+}
+article {
+    background-color: rgb(194, 158, 158);
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article footer {
+    text-align: left;
+}
+.columna {
+    margin: 20px 0px;
+    width: 200px;
+    float: left;
+}
+.pie {
+    clear: both;
 }
