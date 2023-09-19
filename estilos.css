@@ -1,63 +1,11 @@
-body{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
     background-color: black;
-}
-.tarjeta{
-    height: 600px;
-    width: 300px;
-    background-color: bisque;
-    border-radius: 30px;
-    overflow: hidden;
-    position: relative;
-}
-.tarjeta img{
-    width: 100%;
-}
-.perfil{
-    border: 3px solid bisque;
-    bottom: 390px;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    background-color: grey;
-    position: absolute;
-    overflow: hidden;
-}
-.perfil img{
-    width: 100%;
-}
-.tarjeta h1{
-    top: 140px;
-    left: 130px;
-    font-size: medium;
-    font-family: cursive;
-    position: absolute;
-}
-.caja{
-    left: 138px;
-    height: 20px;
-    width: 90px;
-    background-color: azure;
-    position: absolute;
-}
-.caja h1{
-    font-family: arial;
-    font-size: small;
-    top: -10px;
-    left: 0px;
-    position: absolute;
-}
-.seguidores{
-    border-radius: 20px;
-    left: 70px;
-    bottom: -390px;
-    height: 30px;
-    width: 160px;
-    background-color: darkgray;
-    position: relative;
-}
-.seguidores h1{
-    font-size: small;
-    left: 60px;
-    top: -4px;
-    position: absolute;
 }
